@@ -1,0 +1,19 @@
+file-upload-manager/
+├─ backend/
+│  ├─ package.json
+│  ├─ .env (example)
+│  ├─ server.js
+│  ├─ routes/
+│  │  ├─ upload.js
+│  │  └─ auth.js
+│  ├─ services/
+│  │  ├─ storage.js
+│  │  ├─ virusScan.js
+│  │  └─ logger.js
+│  └─ uploads/ (temp + final files)
+├─ frontend/
+│  ├─ package.json
+│  ├─ public/index.html
+│  └─ src/App.jsx
+├─ .github/workflows/ci.yml
+└─ README.md
